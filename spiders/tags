@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Throttle	dlweb.py	/^class Throttle:$/;"	c
+__init__	dlweb.py	/^    def __init__(self, delay):$/;"	m	class:Throttle
+download	dlweb.py	/^def download(url, headers, proxy, num_retries, data=None):$/;"	f
+download	download.py	/^def download(url,user_agent='wswp',proxy=None,num_retries=2):$/;"	f
+get_links	craw.py	/^def get_links(html):$/;"	f
+get_links	dlweb.py	/^def get_links(html):$/;"	f
+get_robots	dlweb.py	/^def get_robots(url):$/;"	f
+link_crawler	craw.py	/^def link_crawler(seed_url,link_regex,max_depth=2):$/;"	f
+link_crawler	dlweb.py	/^def link_crawler(seed_url, link_regex=None, delay=5, max_depth=-1, max_urls=-1, headers=None, user_agent='wswp', proxy=None, num_retries=1):$/;"	f
+normalize	dlweb.py	/^def normalize(seed_url, link):$/;"	f
+path	abc.py	/^path = root + url.split('\/')[-1]#加上最后一个斜杠的内容$/;"	v
+r	abc.py	/^r = requests.get(url)$/;"	v
+root	abc.py	/^root = "\/home\/cwh\/Python\/spiders\/"$/;"	v
+rp	robotparser.py	/^rp = urllib.robotparser.RobotFileParser()$/;"	v
+same_domain	dlweb.py	/^def same_domain(url1, url2):$/;"	f
+url	abc.py	/^url = 'http:\/\/img0.dili360.com\/rw9\/ga\/M00\/47\/FC\/wKgBy1kQGluADPm_ADhv3cl-9zY117.tub.jpg'$/;"	v
+url	robotparser.py	/^url = 'http:\/\/example.webscraping.com'$/;"	v
+user_agent	robotparser.py	/^user_agent = 'GoodCrawler'$/;"	v
+wait	dlweb.py	/^    def wait(self, url):$/;"	m	class:Throttle
